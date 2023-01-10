@@ -7,10 +7,10 @@ I used PPScores to determine what relationships exist amoung features. PPScores 
 
 I was able to fill in some missing values based on the relationships discovered.
 
-For values that remained missing, the were patched with median and 'NONE' for numerical and categorical features, repsectively.
+For values that remained missing, they were patched with median and 'NONE' for numerical and categorical features, repsectively.
 
 ### Modelling
-The best performing model turned out to be a Support Vector Machine. It narrowly beat out the XGBClassifier. The third best model turned out to be an ensemble with equal weights applied to linear regression, XGBClassifier, K Nearest Neighbours, SVM and a neural net (multi-perception algo).
+The best performing model turned out to be a Support Vector Machine. It narrowly beat out the XGBClassifier. The third best model turned out to be an ensemble with equal weights applied to linear regression, XGBClassifier, K Nearest Neighbours, SVM and a neural net (multi-perceptron algo).
 
 ### Final Score
 The SVM model had an accuracy score of 0.80266 which was good enough for a top quartile result on the leaderboard.
